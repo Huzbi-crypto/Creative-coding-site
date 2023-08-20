@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
     />
+    <link rel="stylesheet" href="/cursor/mouse-dot.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Creative Coding Index | Huzefa Huzbi</title>
   </head>
@@ -32,7 +33,6 @@
               <ul>
                 <li>
                   <a
-                    class="magic-hover magic-hover__square"
                     target="_blank"
                     href="constellation-effect/constelation-effect.html"
                     >Constellation Effect</a
@@ -48,42 +48,22 @@
         <div class="footer">
           <p>
             Created By
-            <a
-              class="magic-hover magic-hover__square"
-              href="https://huzbi.vercel.app"
-              target="_blank"
-              >Huzbi</a
-            >.
+            <a href="https://huzbi.vercel.app" target="_blank">Huzbi</a>.
           </p>
           <p>
             Link to
-            <a
-              class="magic-hover magic-hover__square"
-              href="https://github.com/Huzbi-crypto"
-              target="_blank"
+            <a href="https://github.com/Huzbi-crypto" target="_blank"
               >Github Profile</a
             >.
           </p>
         </div>
       </div>
     </div>
+    <div class="cursor-dot"></div>
+    <div class="cursor-dot-outline"></div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
-    <script
-      type="text/javascript"
-      src="https://res.cloudinary.com/veseylab/raw/upload/v1684982764/magicmouse-2.0.0.cdn.min.js"
-    ></script>
-    <script type="text/javascript">
-      options = {
-        cursorOuter: "circle-basic",
-        hoverEffect: "circle-move",
-        hoverItemMove: false,
-        defaultCursor: false,
-        outerWidth: 30,
-        outerHeight: 30,
-      };
-      magicMouse(options);
-    </script>
+    <script src="/cursor/mouse-dot.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
