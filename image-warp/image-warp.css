@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.controls {
+    position: absolute;
+    z-index: 100;
+}
+
+img {
+    display: none;
+}
+
+#warpButton {
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 35px;
+    color: white;
+    background-color: black;
+    font-family: 'Bangers', sans-serif;   
+}
+
+#warpButton:hover {
+    color: black;
+    background-color: white;
+}
+
+button {
+    transition: 0.2s;
+}
+
+#canvas1 {
+    position: absolute;
+}
+
